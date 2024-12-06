@@ -1,0 +1,46 @@
+<html>
+    <body>
+        <link rel="stylesheet" href="contc.css">
+        <section id="contactanos" class="contact-section">
+            <div class="contact-header">
+                <h1>Contáctanos</h1>
+                <p>¿Tienes alguna pregunta? ¡Estamos aquí para ayudarte!</p>
+            </div>
+            <div class="contact-container">
+                <!-- Información de contacto -->
+                <div class="contact-info">
+                    <h2>Puedes encontrarnos en:</h2>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> CALLE SUCRE S/N </li>
+                        <li><i class="fas fa-phone-alt"></i> 949 809 121 </li></i> 990 479 334 </li>
+                        <li><i class="fas fa-envelope"></i> SWEETSTYLE.store@gmail.com</li>
+                        <li><i class="fas fa-globe"></i> www.sweeststyle.store.com</li>
+                    </ul>
+                </div>
+        
+                <!-- Formulario de contacto -->
+                <div class="contact-form-container">
+                    <h2>Envíanos un mensaje</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name"><i class="fas fa-user"></i> Nombre</label>
+                            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i> Correo Electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message"><i class="fas fa-comment-dots"></i> Mensaje</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+            <div id="form-response" class="hidden success-message">
+                <p>¡Gracias por contactarnos, <span id="user-name"></span>! Pronto responderemos a tu consulta.</p>
+            </div>
+        </section>
+</body>
+</html>
